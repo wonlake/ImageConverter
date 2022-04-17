@@ -79,12 +79,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\..\ThirdPartyLib\libarg_parser\include;..\..\ThirdPartyLib\libfreeimage\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\ThirdPartyLib\build\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath>..\..\ThirdPartyLib\build\lib\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\..\ThirdPartyLib\libarg_parser\include;..\..\ThirdPartyLib\libfreeimage\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\ThirdPartyLib\build\lib\$(Configuration);$(LibraryPath)</LibraryPath>
+    <LibraryPath>..\..\ThirdPartyLib\build\lib\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
